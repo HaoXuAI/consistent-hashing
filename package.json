@@ -1,0 +1,25 @@
+{
+  "name": "consistent-hashing",
+  "version": "0.0.1",
+  "description": "a repository for consistent-hashing algorithm in coffeescript",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmuhao/consistent-hashing.git"
+  },
+  "author": "Hao Xu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmuhao/consistent-hashing/issues"
+  },
+  "homepage": "https://github.com/cmuhao/consistent-hashing#readme",
+  "dependencies": {
+    "coffee-script": "^1.12.7",
+    "mocha": "^5.0.0",
+    "should": "^13.2.1"
+  }
+}
